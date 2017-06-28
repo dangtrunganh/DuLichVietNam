@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Du Lich Viet Nam</string>
+    <string name="menu_search">search</string>
+    <string name="menu_settings">settings</string>
+    <string name="menu_navigation">navigations</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home Fragment</string>
+</resources>

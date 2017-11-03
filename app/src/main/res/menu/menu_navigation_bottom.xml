@@ -8,11 +8,6 @@
         android:id="@+id/action_search"
         android:icon="@drawable/magnify"
         android:title="Tìm kiếm"/>
-
-    <item
-        android:id="@+id/action_add"
-        android:icon="@android:drawable/btn_star_big_off"
-        android:title="Thêm"/>
     <item
         android:id="@+id/action_favorite"
         android:icon="@drawable/heart"

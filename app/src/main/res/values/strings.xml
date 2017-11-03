@@ -6,4 +6,35 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Home Fragment</string>
+    <string name="your_hint">Bạn muốn đi đâu?</string>
+
+
+    <string name="location_month">Điểm đến tháng 7</string>
+    <string name="beach">Bãi biển đẹp trong hè này?</string>
+    <string name="go_one_day">Đi đâu trong một ngày?</string>
+    <string name="mountain_climb">Bạn muốn leo núi?</string>
+    <string name="demo_content_place">Được ví dụ như một bảo tàng tượng Phật với nhiều pho tượng cổ độc đáo, chùa Tây Phương thu hút du khách ở khắp mọi nơi đến tham quan và chiêm bái. \nHội chùa diễn ra từ ngày mùng 6 đến mưng 10/3 âm lịch</string>
+    <string name="all_province">Tất cả</string>
+    <string name="all_beach">Tất cả</string>
+
+    <string name="login">Login</string>
+    <string name="or_sign_in_with">Or sign in with:</string>
+    <string name="or_sign_up_with">Or sign up with:</string>
+    <string name="don_t_have_an_account">Don\'t have An Account?</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="signin">Signin</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="sign_in">sign in</string>
+    <string name="log_in">Log in</string>
+
+    <string name="speech_prompt">Say something!</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="choose_input_language">Choose input language:</string>
+    <string name="chon_ngon_ngu_dau_vao">Chọn ngôn ngữ đầu vào</string>
+    <string name="cham_vao_mic">Chạm vào mic để nói</string>
+    <string name="translate_voice">Translate voice</string>
+    <string name="dich_giong_noi">Dịch giọng nói</string>
 </resources>

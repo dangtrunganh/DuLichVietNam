@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 
@@ -39,6 +40,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     private DatabaseReference mData;
     private TextView tvProvinceMonth, tvBeach, tvOneDay, tvMountain;
+
+    private LinearLayout lnlNorthArea, lnlMidArea, lnlSouthArea;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -78,6 +81,15 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         tvBeach = (TextView) view.findViewById(R.id.tv_salient_all_place_beach);
         tvOneDay = (TextView) view.findViewById(R.id.tv_salient_all_place_one_day);
         tvMountain = (TextView) view.findViewById(R.id.tv_salient_all_place_mountain);
+
+        lnlNorthArea = (LinearLayout) view.findViewById(R.id.lnl_north_area);
+        lnlMidArea = (LinearLayout) view.findViewById(R.id.lnl_mid_area);
+        lnlSouthArea = (LinearLayout) view.findViewById(R.id.lnl_south_area);
+
+        lnlNorthArea.setOnClickListener(this);
+        lnlMidArea.setOnClickListener(this);
+        lnlSouthArea.setOnClickListener(this);
+
         tvProvinceMonth.setOnClickListener(this);
         tvBeach.setOnClickListener(this);
         tvOneDay.setOnClickListener(this);
@@ -244,6 +256,15 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.tv_salient_all_place_mountain:
                 startActivity(new Intent(getActivity().getBaseContext(), ListPlaceActivity.class));
+                break;
+            case R.id.lnl_north_area:
+                startActivity(new Intent(getActivity().getBaseContext(), DetailAreaActivity.class));
+                break;
+            case R.id.lnl_mid_area:
+                startActivity(new Intent(getActivity().getBaseContext(), DetailAreaActivity.class));
+                break;
+            case R.id.lnl_south_area:
+                startActivity(new Intent(getActivity().getBaseContext(), DetailAreaActivity.class));
                 break;
             default:
                 break;
